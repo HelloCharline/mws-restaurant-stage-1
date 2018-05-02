@@ -268,3 +268,83 @@ header nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+/* ====================== Responsiveness ====================== */
+/* Desktop*/
+@media screen and (min-width: 960px) {
+  header {
+    min-height: 70px;
+  }
+  header nav h1 a {
+    font-size: 2em;
+  }
+  body {
+    width: 961px;
+    margin: auto;
+  }
+  #restaurants-list li {
+    width: 30%;
+    margin: 1%;
+  }
+  #restaurants-list li: last-of-type {
+    margin-right: 0;
+  }
+  #restaurants-list {
+    justify-content: center;
+  }
+  #neighborhoods-select {
+  height: 80px;
+  margin: auto;
+  }
+  #cuisines-select {
+  height: 80px;
+  margin: auto;
+  }
+  .filter-options {
+  min-height: 250px;
+  }
+  .filter-options h2 {
+    font-size: 2em;
+  }
+  .filter-options select {
+    font-size: 1.7em;
+  }
+}
+/*Tablet*/
+@media screen and (max-width: 959px) and (min-width: 671px) {
+  header {
+    min-height: 50px;
+  }
+  header nav h1 a {
+    font-size: 1.5em;
+  }
+  #restaurants-list li {
+    width: 47%;
+    margin: 1%;
+  }
+  #neighborhoods-select {
+  height: 65px;
+  margin: auto;
+  }
+  #cuisines-select {
+  height: 65px;
+  margin: auto;
+  }
+  .filter-options {
+  min-height: 250px;
+  }
+  .filter-options h2 {
+    font-size: 2em;
+  }
+  .filter-options select {
+    font-size: 1.7em;
+  }
+}
+/*Mobile*/
+@media screen and (max-width: 670px) and (min-width: 400px) {
+  #restaurants-list li {
+    width: 100%;
+  }
+}
+
+ 
