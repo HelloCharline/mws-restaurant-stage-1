@@ -143,12 +143,20 @@ header nav h1 a {
   margin: auto;
 }
 
+
+
+
+
+
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
   margin: 0;
   padding: 10px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -235,7 +243,6 @@ header nav h1 a {
 #restaurant-container h2 {
   padding-left: 10px;
 }
-
 /* ====================== Reviews List ====================== */
 #reviews-container {
   padding: 10px;
